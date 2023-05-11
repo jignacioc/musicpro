@@ -1,0 +1,115 @@
+/* GLOBAL */
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.row{
+    max-width: 100%;
+    margin: 0px!important;
+}
+.col-md-12{
+    padding: 0px;
+}
+
+/* HEADER */
+
+.navbar-brand{
+    letter-spacing: 15px;
+}
+.header{
+    background-color: #212529;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-white{
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.navbar-toggler{
+    border-color: white!important;
+    transition: 3s;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255)!important;
+    border-radius: 10%;
+}
+.nav-link:hover{
+    color: #212529!important;
+    background-color: white;
+    transition: 1s ease all;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #212529;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.copy{
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    max-width: 100%!important;
+    height: 100%;
+    padding: 0%;
+}
+
+.img{
+    height: 1080px;
+    width: 1920px;
+}
+
+.nav-item{
+    transition: 1s ease all;
+    border-radius: 10px;
+    color: white;
+}
+.nav-link{
+    color: white!important;
+    transition: 1s ease all;
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: white;
+}
+li.nav-item {
+    margin: 10px!important;
+}
+.nav-link:hover{
+    color: #212529!important;
+}
